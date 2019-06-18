@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App</title>
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme-blue">
+	
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        
+		  	<section class="panel panel-left panel-cover">
+			  	<div class="block">
+				<img src="img/Funday playlist.png" class="img-fluid center" alt="risa">
+				  Equipo RISA				  
+				</div>
+				<div class="block">
+					<div class="list media-list">
+						<ul>
+							<li>
+								<a href="/home/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">home</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">Inicio</h5>
+										</div>
+									</div>
+								</a>
+							</li>
+							
+							
+							<li>
+								<a href="/#/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">favorite_border</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">Music</h5>
+										</div>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="/artist/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">face</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">Artist</h5>
+										</div>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="/radio/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">queue_music</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">My Playlist</h5>
+										</div>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="/#/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">search</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">About</h5>
+										</div>
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="/profile/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">perm_identity</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">Profile</h5>
+										</div>
+									</div>
+								</a>
+							</li>
+					
+							
+							
+							
+							
+						</ul>
+					</div>					
+				</div>
+			</section>
+        
+		  
+		 <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+              	<div class="title">HOME</div>
+				<div class="right">
+					<a href="#" class="link panel-open" data-panel="left">
+						<i class="material-icons">menu</i>
+					</a>  
+				</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+			 	
+			<div class="swiper-container swiper-init" data-speed="400" data-space-between="40" data-slides-per-view="1" data-pagination='{"el": ".swiper-pagination"}'>
+    <!-- Slides wrapper -->
+		<div class="swiper-wrapper">
+			<!-- Slides -->
+			<div class="swiper-slide"> 
+				<img src="img/Home/My Playlist 1.jpg" class="img-fluid" alt="muffin"> 
+			</div>
+			
+			<div class="swiper-slide">
+				<img src="img/Home/My Playlist 2.jpg" class="img-fluid" alt="muffin">
+			</div>
+			
+			
+		</div>
+		<!-- Pagination, if required -->
+		<div class="swiper-pagination"></div>
+	</div>
+			 <div class="row">
+			 
+				<h2 class="blue">Trending Artists</h2>
+			   <h2 class="gray">See All</h2>
+				 
+				 
+			 </div> 
+			
+			  
+		
+			  
+			<div class="row">
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/artist/"><img src="img/Untitled-1.png" class="img-fluid pad" alt="img" width="100px" ></a>
+					<h3 class="artist name">Billie Eilish</h3>
+				</div>
+				
+			</div>
+			</article>
+			
+			
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/cvbd.png" class="img-fluid pad" alt="img" width="100px"></a>
+					<h3 class="artist name">Lily Allen</h3>
+				</div>
+			
+				
+			</div>
+			</article>
+						
+		
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/dfbsdgffgewtgrh.png" class="img-fluid pad" alt="img" width="100px"></a>
+					<h3 class="artist name">Selena Gomez</h3>
+				</div>
+			
+				
+			</div>
+			</article>
+						
+						
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/fdsasgf.png" class="img-fluid pad" alt="img" width="100px"></a>
+					<h3 class="artist name">MGMT</h3>
+				</div>
+			
+				
+			</div>
+			</article>
+			
+		</div>
+		
+					<h2 class="blue">Top Song</h2>
+		
+				<div class="row">
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/radio/"><img src="img/Album Cover/Bad Boy_Billie Eilish.jpg" class="img-fluid" alt="img"></a>
+					<h3 class="artist name1">Billie Eilish</h3>
+					<h5 class="name2">Bad Guy</h5>
+				</div>
+				
+			</div>
+			</article>
+			
+			
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/Album Cover/Sheezus_ Lilly Allen.jpg" class="img-fluid" alt="img"></a>
+					<h3 class="artist name1">Lily Allen</h3>
+					<h5 class="name2">Sheezus</h5>
+				</div>
+			
+				
+			</div>
+			</article>
+						
+		
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/Album Cover/Selena Gomez_ Bad Liar.jpg" class="img-fluid" alt="img"></a>
+					<h3 class="artist name1">Selena Gomez</h3>
+					<h5 class="name2">Bad Liar</h5>
+				</div>
+			
+				
+			</div>
+			</article>
+						
+						
+			<article class="col">
+			<div class="card">
+				
+			
+				<div class="card-content">
+					<a href="/#/"><img src="img/Album Cover/MGMT_ Time to Pretend.jpg" class="img-fluid" alt="img"></a>
+					<h3 class="artist name1">MGMT</h3>
+					<h5 class="name2">Time to pretend</h5>
+				</div>
+			
+				
+			</div>
+			</article>
+			
+		</div>
+			    <!-- before here -->
+			  </div>
+			
+        </section>
+		  
+      </div>
+    </div>
+	
+	
+  <!-- Default view-page layout -->
+  <div class="view">
+    <div class="page">
+      <!-- page-content has additional login-screen content -->
+      <div class="page-content login-screen-content">
+        <div class="login-screen-title">My App</div>
+        <!-- Login form -->
+        <form>
+          <div class="list">
+            <ul>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Username</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="username" placeholder="Username">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Password</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="password" placeholder="Password">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <ul>
+              <li>
+                <a href="#" class="item-link list-button   ">Sign In</a>
+              </li>
+            </ul>
+            <div class="block-footer">Some text with login information.</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+.list h5{
+	margin: 0;
+}
+
+.img-fluid{
+	max-width: 100%;
+	display: block;
+}
+.coffee .card-header{
+	padding: 0;
+}
+
+.card.menu{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-align: center;
+}
+.bg-festival{
+	background-image: url(../img/bg-breakfast.jpg);
+}
+
+.blue{
+	color: blue;
+	font-size: 14px;
+	margin: 10px;
+	text-align: left;
+}
+
+.gray{
+	color: gray;
+	font-size: 14px;
+	margin: 10px;
+	text-align: right;
+}
+
+.artist{
+
+	margin: 10px 0;
+	font-size: 20px;
+	color: black;
+}
+
+.album{
+	color: dimgray;
+	font-size: 13px;
+	margin: 10px 0;
+}
+
+.album1{
+	color: black;
+	font-size: 13px;
+	margin: 10px 0;
+}
+
+.numba{
+	margin-left: 8px;
+}
+
+.pad{
+	margin: 5px;
+}
+
+.name{text-align: center;
+	font-size: 15px;
+color: dimgray;
+}
+
+.name2{text-align: center;
+	font-size: 10px;
+color: dimgray;
+}
+
+.name1{
+	text-align: center;
+	font-size: 15px;
+	color: cadetblue;
+}
+
+.righty{
+	margin-left: 70px;
+}
+
+.left{
+	text-align: left;
+}
+
+#funday{
+	background-image: url( "../img/ok.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 10px;
+
+}
+.overlay{
+	background-color: rgba(0,0,0,0.70);
+}
+.menu .card-content{
+	padding: 35px 0;
+}
+.menu h4{
+	margin: 0;
+	font-size: 20px;
+}
+.menu p{
+	margin: 0;
+	font-size: 12px;
+}
+.menu a{
+	color: #fff;
+}
+
+.menus .card-content {
+	padding: 10px;
+	text-align: center;
+}
+.menus h3{
+	font-size: 14px;
+	color: #2d2d2d;
+	margin-bottom: 0;
+}
+.menus h4{
+	font-size: 12px;
+	color: #555;
+}
+.menus p{
+	font-size: 12px;
+	color: #0C9F67;
+	font-weight: 600;
+}
+
+.center{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+
+.product{
+	color: #2d2d2d;
+	font-size: 16px;
+	font-weight: 600;
+}
+.price{
+	color: #0C9F67;
+	font-size: 16px;
+	font-weight: 600;
+}
+.button-green{
+	background-color: #0C9F67 !important;
+}
+
+.blu{
+	color: blue;
+}
+
+
+
